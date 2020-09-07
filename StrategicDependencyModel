@@ -1,0 +1,218 @@
+{
+  "actors": [
+    {
+      "id": "144aac88-4b2e-4a09-a4b9-d184a8bccfe6",
+      "text": "Aluno",
+      "type": "istar.Role",
+      "x": 548,
+      "y": 338,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "e542c429-e5ba-4cde-acb5-3260dab03e74",
+      "text": "Centro de Informática",
+      "type": "istar.Agent",
+      "x": 890,
+      "y": 139,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "21008516-8f56-4f0d-9a55-6c62937fe23c",
+      "text": "Portaria do Centro de Informática",
+      "type": "istar.Role",
+      "x": 896,
+      "y": 545,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "30cab333-3303-495a-94b0-b0066c8994c9",
+      "text": "Monitor",
+      "type": "istar.Role",
+      "x": 209,
+      "y": 122,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "f091656f-46cb-4162-8443-8635423025cc",
+      "text": "Chave da baia",
+      "type": "istar.Resource",
+      "x": 176,
+      "y": 535,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "30cab333-3303-495a-94b0-b0066c8994c9",
+      "target": "21008516-8f56-4f0d-9a55-6c62937fe23c"
+    },
+    {
+      "id": "5189094b-e486-4947-9901-aa4b05ed342e",
+      "text": "Manter os equipamentos seguros",
+      "type": "istar.Goal",
+      "x": 514,
+      "y": 118,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "e542c429-e5ba-4cde-acb5-3260dab03e74",
+      "target": "30cab333-3303-495a-94b0-b0066c8994c9"
+    },
+    {
+      "id": "2ef1c37d-1553-4a60-8893-5ededd5a8c14",
+      "text": "Equipamentos",
+      "type": "istar.Resource",
+      "x": 372,
+      "y": 250,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "144aac88-4b2e-4a09-a4b9-d184a8bccfe6",
+      "target": "30cab333-3303-495a-94b0-b0066c8994c9"
+    }
+  ],
+  "links": [
+    {
+      "id": "255c217f-4bb8-4377-ad47-9bcdeedcaa35",
+      "type": "istar.ParticipatesInLink",
+      "source": "21008516-8f56-4f0d-9a55-6c62937fe23c",
+      "target": "e542c429-e5ba-4cde-acb5-3260dab03e74",
+      "name": "faz-parte-de"
+    },
+    {
+      "id": "74efb8ad-d534-4da6-9297-cf230793ad87",
+      "type": "istar.ParticipatesInLink",
+      "source": "30cab333-3303-495a-94b0-b0066c8994c9",
+      "target": "e542c429-e5ba-4cde-acb5-3260dab03e74",
+      "name": "estuda-em"
+    },
+    {
+      "id": "97ec2a26-730b-4862-b53a-581af238d4d5",
+      "type": "istar.DependencyLink",
+      "source": "30cab333-3303-495a-94b0-b0066c8994c9",
+      "target": "f091656f-46cb-4162-8443-8635423025cc"
+    },
+    {
+      "id": "f327f5fd-4ae2-44f9-a750-db187e0073b4",
+      "type": "istar.DependencyLink",
+      "source": "f091656f-46cb-4162-8443-8635423025cc",
+      "target": "21008516-8f56-4f0d-9a55-6c62937fe23c"
+    },
+    {
+      "id": "1f3be915-b42b-42c5-abdf-754a00781818",
+      "type": "istar.DependencyLink",
+      "source": "e542c429-e5ba-4cde-acb5-3260dab03e74",
+      "target": "5189094b-e486-4947-9901-aa4b05ed342e"
+    },
+    {
+      "id": "867d6927-cea5-48e8-882b-938153309d27",
+      "type": "istar.DependencyLink",
+      "source": "5189094b-e486-4947-9901-aa4b05ed342e",
+      "target": "30cab333-3303-495a-94b0-b0066c8994c9"
+    },
+    {
+      "id": "296b50ca-4de3-401b-a54d-2077e8788684",
+      "type": "istar.ParticipatesInLink",
+      "source": "144aac88-4b2e-4a09-a4b9-d184a8bccfe6",
+      "target": "e542c429-e5ba-4cde-acb5-3260dab03e74",
+      "name": "estuda-em"
+    },
+    {
+      "id": "ac49e235-529b-4372-92c0-84afee0ee730",
+      "type": "istar.DependencyLink",
+      "source": "144aac88-4b2e-4a09-a4b9-d184a8bccfe6",
+      "target": "2ef1c37d-1553-4a60-8893-5ededd5a8c14"
+    },
+    {
+      "id": "f43b8ee1-fc58-443e-8b4b-ae205e9c965b",
+      "type": "istar.DependencyLink",
+      "source": "2ef1c37d-1553-4a60-8893-5ededd5a8c14",
+      "target": "30cab333-3303-495a-94b0-b0066c8994c9"
+    }
+  ],
+  "display": {
+    "5189094b-e486-4947-9901-aa4b05ed342e": {
+      "width": 118.84375,
+      "height": 63
+    },
+    "74efb8ad-d534-4da6-9297-cf230793ad87": {
+      "vertices": [
+        {
+          "x": 475,
+          "y": 38
+        },
+        {
+          "x": 713,
+          "y": 44
+        }
+      ]
+    },
+    "296b50ca-4de3-401b-a54d-2077e8788684": {
+      "vertices": [
+        {
+          "x": 737,
+          "y": 260
+        }
+      ]
+    },
+    "ac49e235-529b-4372-92c0-84afee0ee730": {
+      "vertices": [
+        {
+          "x": 527,
+          "y": 342
+        },
+        {
+          "x": 496,
+          "y": 324
+        },
+        {
+          "x": 477,
+          "y": 307
+        }
+      ]
+    },
+    "f43b8ee1-fc58-443e-8b4b-ae205e9c965b": {
+      "vertices": [
+        {
+          "x": 277,
+          "y": 174
+        }
+      ]
+    },
+    "144aac88-4b2e-4a09-a4b9-d184a8bccfe6": {
+      "collapsed": true
+    },
+    "e542c429-e5ba-4cde-acb5-3260dab03e74": {
+      "collapsed": true
+    },
+    "21008516-8f56-4f0d-9a55-6c62937fe23c": {
+      "collapsed": true
+    },
+    "30cab333-3303-495a-94b0-b0066c8994c9": {
+      "collapsed": true
+    }
+  },
+  "tool": "pistar.2.0.0",
+  "istar": "2.0",
+  "saveDate": "Mon, 07 Sep 2020 21:44:44 GMT",
+  "diagram": {
+    "width": 2000,
+    "height": 1300,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}
