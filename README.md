@@ -10,3 +10,6 @@ This is repository contains i* models for Requirements engineering discipline at
 - Make changes
 - On the menu at the top, click **File**, then **Save Model**. This should download a .txt file.
 - Rename the file (**keep .txt extension**) and commit it, and push it.
+
+# Current Model (Strategic Dependecy view)
+![Strategic Dependency Model](./StrategicDependencyModel.jpeg "Strategic Dependency Model")
