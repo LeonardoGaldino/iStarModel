@@ -14,4 +14,7 @@ This is repository contains i* models for Requirements engineering discipline at
 - Rename the file, commit it and push it.
 
 # Current Model (Strategic Dependecy view)
-![Strategic Dependency Model](./StrategicDependencyModel.jpeg "Strategic Dependency Model")
+![Strategic Dependency Model](./Media/StrategicDependencyModel.jpeg "Strategic Dependency Model")
+
+# Current Model (Strategic Rationale view)
+![Strategic Rationale Model](./Media/SRDiagram.png "Strategic Rationale Model")
