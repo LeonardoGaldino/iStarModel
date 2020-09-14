@@ -17,4 +17,4 @@ This is repository contains i* models for Requirements engineering discipline at
 ![Strategic Dependency Model](./Media/StrategicDependencyModel.jpeg "Strategic Dependency Model")
 
 # Current Model (Strategic Rationale view)
-![Strategic Rationale Model](./Media/SRDiagram.png "Strategic Rationale Model")
+![Strategic Rationale Model](./Media/SRgoalDiagram.png "Strategic Rationale Model")
