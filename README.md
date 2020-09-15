@@ -13,8 +13,11 @@ This is repository contains i* models for Requirements engineering discipline at
 - On the menu at the top, click **File**, then **Save Image**.
 - Rename the file, commit it and push it.
 
-# Current Model (Strategic Dependecy view AS-IS)
-![Strategic Dependency Model](./Media/StrategicDependencyModel.png "Strategic Dependency Model")
+# Strategic Dependecy AS-IS model
+![Strategic Dependency As Is Model](./Media/StrategicDependencyAsIsModel.png "Strategic Dependency As Is Model")
 
-# Current Model (Strategic Rationale view)
-![Strategic Rationale Model](./Media/SRgoalDiagram.png "Strategic Rationale Model")
+# Strategic Dependency TO-BE model
+![Strategic Dependency To Be Model](./Media/StrategicDependencyToBeModel.png "Strategic Dependency To Be Model")
+
+# Strategic Rationale AS-IS model
+![Strategic Rationale As Is Model](./Media/SRgoalDiagram.png "Strategic Rationale As Is Model")
