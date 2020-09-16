@@ -32,6 +32,17 @@
         "Description": ""
       },
       "nodes": []
+    },
+    {
+      "id": "de1a0e6c-0484-49d0-9d6e-6d61d16a1ed4",
+      "text": "Monitor",
+      "type": "istar.Role",
+      "x": 178,
+      "y": 901,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
     }
   ],
   "orphans": [],
@@ -54,18 +65,6 @@
       "type": "istar.Goal",
       "x": 651,
       "y": 510,
-      "customProperties": {
-        "Description": ""
-      },
-      "source": "e542c429-e5ba-4cde-acb5-3260dab03e74",
-      "target": "30cab333-3303-495a-94b0-b0066c8994c9"
-    },
-    {
-      "id": "f6140388-6905-4381-afa0-816ea11c1b8f",
-      "text": "Comunicar furto de equipamentos",
-      "type": "istar.Task",
-      "x": 830,
-      "y": 437,
       "customProperties": {
         "Description": ""
       },
@@ -98,7 +97,7 @@
     },
     {
       "id": "3fc427c1-555c-4bf8-bb97-709d8ec4ac1a",
-      "text": "Devolver equipamentos pontualmente",
+      "text": "Receber equipamentos após uso",
       "type": "istar.Task",
       "x": 584,
       "y": 267,
@@ -119,92 +118,152 @@
       },
       "source": "e542c429-e5ba-4cde-acb5-3260dab03e74",
       "target": "30cab333-3303-495a-94b0-b0066c8994c9"
+    },
+    {
+      "id": "78875292-7586-4e41-9e65-8fccb9692195",
+      "text": "Visualizar uso em tempo real",
+      "type": "istar.Task",
+      "x": 178,
+      "y": 691,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "de1a0e6c-0484-49d0-9d6e-6d61d16a1ed4",
+      "target": "30cab333-3303-495a-94b0-b0066c8994c9"
+    },
+    {
+      "id": "0982979f-fdc2-4ccb-a6aa-505ba71b4ff5",
+      "text": "Verificar alerta de possível extravio",
+      "type": "istar.Task",
+      "x": 32,
+      "y": 680,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "30cab333-3303-495a-94b0-b0066c8994c9",
+      "target": "de1a0e6c-0484-49d0-9d6e-6d61d16a1ed4"
+    },
+    {
+      "id": "1844aba0-36d7-4a8a-acf1-057626ee7b44",
+      "text": "Detectar furto de Equipamentos",
+      "type": "istar.Task",
+      "x": 575.5,
+      "y": 831.5,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "e542c429-e5ba-4cde-acb5-3260dab03e74",
+      "target": "de1a0e6c-0484-49d0-9d6e-6d61d16a1ed4"
     }
   ],
   "links": [
     {
-      "id": "81bfeb58-01eb-45e8-8f8c-682767447897",
+      "id": "fcd0fe11-684c-4f20-81cc-47bc9431b833",
       "type": "istar.DependencyLink",
       "source": "e542c429-e5ba-4cde-acb5-3260dab03e74",
       "target": "9b84ed09-ee85-4961-acb1-9b41a7cb9d22"
     },
     {
-      "id": "f97818d7-46e3-41bc-8fc1-b0508cef37a9",
+      "id": "bda67aae-67a9-46af-9917-dad95a11ddc6",
       "type": "istar.DependencyLink",
       "source": "9b84ed09-ee85-4961-acb1-9b41a7cb9d22",
       "target": "30cab333-3303-495a-94b0-b0066c8994c9"
     },
     {
-      "id": "b9d460c6-e033-49af-95ae-9b42d7de0657",
+      "id": "c8496018-7407-4377-b77c-098342d1d5b1",
       "type": "istar.DependencyLink",
       "source": "e542c429-e5ba-4cde-acb5-3260dab03e74",
       "target": "d77391fd-1253-42cc-ae4a-4774b1a80d6d"
     },
     {
-      "id": "04941c74-83d9-4ea8-93b0-7f807db085e9",
+      "id": "106c51b7-7f83-486b-a23c-86e4ae608b4c",
       "type": "istar.DependencyLink",
       "source": "d77391fd-1253-42cc-ae4a-4774b1a80d6d",
       "target": "30cab333-3303-495a-94b0-b0066c8994c9"
     },
     {
-      "id": "55b87d9d-9ae4-4590-83b7-0f1ccd9ee2cb",
-      "type": "istar.DependencyLink",
-      "source": "e542c429-e5ba-4cde-acb5-3260dab03e74",
-      "target": "f6140388-6905-4381-afa0-816ea11c1b8f"
-    },
-    {
-      "id": "7b747329-520e-4ffd-b1a6-a501a381296d",
-      "type": "istar.DependencyLink",
-      "source": "f6140388-6905-4381-afa0-816ea11c1b8f",
-      "target": "30cab333-3303-495a-94b0-b0066c8994c9"
-    },
-    {
-      "id": "2bec5282-fd59-4f67-92a8-a6ef544b1f0b",
+      "id": "65d9e6a6-3bbe-412c-a5f0-1b6f7991a485",
       "type": "istar.DependencyLink",
       "source": "30cab333-3303-495a-94b0-b0066c8994c9",
       "target": "05ae5717-a62e-4985-8224-8c0d6d4187c1"
     },
     {
-      "id": "e1702994-10d6-4c33-b882-ef1807da2821",
+      "id": "6ee67f5b-0d9f-4ce2-b6f8-54517a7f471f",
       "type": "istar.DependencyLink",
       "source": "05ae5717-a62e-4985-8224-8c0d6d4187c1",
       "target": "144aac88-4b2e-4a09-a4b9-d184a8bccfe6"
     },
     {
-      "id": "01d78e64-da9f-4e4e-af5c-cf299885e100",
+      "id": "596665bc-9e2f-4ad1-8689-33257d94ec4b",
       "type": "istar.DependencyLink",
       "source": "144aac88-4b2e-4a09-a4b9-d184a8bccfe6",
       "target": "5c0a60d3-e410-4786-b4fb-6132fce5e029"
     },
     {
-      "id": "fc9b4644-ef84-46e6-add8-34483cfb780a",
+      "id": "95a46d5b-db7e-48c9-8631-03836092dc8f",
       "type": "istar.DependencyLink",
       "source": "5c0a60d3-e410-4786-b4fb-6132fce5e029",
       "target": "30cab333-3303-495a-94b0-b0066c8994c9"
     },
     {
-      "id": "7f694b18-1a7c-4063-bf45-82cd938cd74f",
+      "id": "e39c681a-7a1b-412a-83fe-ba672c0a8a4a",
       "type": "istar.DependencyLink",
       "source": "30cab333-3303-495a-94b0-b0066c8994c9",
       "target": "3fc427c1-555c-4bf8-bb97-709d8ec4ac1a"
     },
     {
-      "id": "fe99f00e-4967-4111-a419-6aefa2e9ad4b",
+      "id": "0378ceb3-7cde-44af-bf49-02f9e6908d1b",
       "type": "istar.DependencyLink",
       "source": "3fc427c1-555c-4bf8-bb97-709d8ec4ac1a",
       "target": "144aac88-4b2e-4a09-a4b9-d184a8bccfe6"
     },
     {
-      "id": "52e6c186-11ba-4514-ba93-c2af56da373f",
+      "id": "22d11b7a-79b1-4ed8-9318-5eb0d0d2606d",
       "type": "istar.DependencyLink",
       "source": "e542c429-e5ba-4cde-acb5-3260dab03e74",
       "target": "e7571e0b-5519-4df3-b891-ac27a3c06668"
     },
     {
-      "id": "13953320-0534-4fb2-a9e1-2b4f575a48ee",
+      "id": "41478a69-3b75-426a-940a-fcfe365ec909",
       "type": "istar.DependencyLink",
       "source": "e7571e0b-5519-4df3-b891-ac27a3c06668",
       "target": "30cab333-3303-495a-94b0-b0066c8994c9"
+    },
+    {
+      "id": "3b0c99b6-53c7-4b65-a2a8-6397a1b5e63a",
+      "type": "istar.DependencyLink",
+      "source": "de1a0e6c-0484-49d0-9d6e-6d61d16a1ed4",
+      "target": "78875292-7586-4e41-9e65-8fccb9692195"
+    },
+    {
+      "id": "5a2c4d6d-646e-4040-9dd9-a57620887727",
+      "type": "istar.DependencyLink",
+      "source": "78875292-7586-4e41-9e65-8fccb9692195",
+      "target": "30cab333-3303-495a-94b0-b0066c8994c9"
+    },
+    {
+      "id": "bc6440fa-333a-4247-a9ff-52e6ddab1158",
+      "type": "istar.DependencyLink",
+      "source": "30cab333-3303-495a-94b0-b0066c8994c9",
+      "target": "0982979f-fdc2-4ccb-a6aa-505ba71b4ff5"
+    },
+    {
+      "id": "436f29e9-e3b2-4e2e-b9e9-cb8ff4649696",
+      "type": "istar.DependencyLink",
+      "source": "0982979f-fdc2-4ccb-a6aa-505ba71b4ff5",
+      "target": "de1a0e6c-0484-49d0-9d6e-6d61d16a1ed4"
+    },
+    {
+      "id": "3e860db5-d42e-462c-9535-4cac3565485e",
+      "type": "istar.DependencyLink",
+      "source": "e542c429-e5ba-4cde-acb5-3260dab03e74",
+      "target": "1844aba0-36d7-4a8a-acf1-057626ee7b44"
+    },
+    {
+      "id": "b3dc6417-2edf-4ba3-9cd1-e21cf2b54ee8",
+      "type": "istar.DependencyLink",
+      "source": "1844aba0-36d7-4a8a-acf1-057626ee7b44",
+      "target": "de1a0e6c-0484-49d0-9d6e-6d61d16a1ed4"
     }
   ],
   "display": {
@@ -215,10 +274,6 @@
     "d77391fd-1253-42cc-ae4a-4774b1a80d6d": {
       "width": 119.97915649414062,
       "height": 61.40277099609375
-    },
-    "f6140388-6905-4381-afa0-816ea11c1b8f": {
-      "width": 118.84375,
-      "height": 61
     },
     "05ae5717-a62e-4985-8224-8c0d6d4187c1": {
       "width": 105.8753662109375,
@@ -236,7 +291,15 @@
       "width": 106.84375,
       "height": 47
     },
-    "f97818d7-46e3-41bc-8fc1-b0508cef37a9": {
+    "0982979f-fdc2-4ccb-a6aa-505ba71b4ff5": {
+      "width": 105.671875,
+      "height": 47.546875
+    },
+    "1844aba0-36d7-4a8a-acf1-057626ee7b44": {
+      "width": 117.171875,
+      "height": 47.046875
+    },
+    "bda67aae-67a9-46af-9917-dad95a11ddc6": {
       "vertices": [
         {
           "x": 224,
@@ -252,11 +315,14 @@
     },
     "30cab333-3303-495a-94b0-b0066c8994c9": {
       "collapsed": true
+    },
+    "de1a0e6c-0484-49d0-9d6e-6d61d16a1ed4": {
+      "collapsed": true
     }
   },
   "tool": "pistar.2.0.0",
   "istar": "2.0",
-  "saveDate": "Tue, 15 Sep 2020 22:19:38 GMT",
+  "saveDate": "Wed, 16 Sep 2020 20:09:20 GMT",
   "diagram": {
     "width": 2000,
     "height": 1636,
