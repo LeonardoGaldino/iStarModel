@@ -14,7 +14,7 @@ This is repository contains i* models for Requirements engineering discipline at
 - Rename the file, commit it and push it.
 
 # Strategic Dependecy AS-IS model
-![Strategic Dependency As Is Model](./Media/StrategicDependencyAsIsModel.png "Strategic Dependency As Is Model")
+![Strategic Dependency As Is Model](./Media/StrategicDependencyAsIsModel.jpeg "Strategic Dependency As Is Model")
 
 # Strategic Dependency TO-BE model
 ![Strategic Dependency To Be Model](./Media/StrategicDependencyToBeModel.png "Strategic Dependency To Be Model")
