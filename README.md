@@ -20,4 +20,4 @@ This is repository contains i* models for Requirements engineering discipline at
 ![Strategic Dependency To Be Model](./Media/StrategicDependencyToBeModel.png "Strategic Dependency To Be Model")
 
 # Strategic Rationale AS-IS model
-![Strategic Rationale As Is Model](./Media/SRgoalDiagram.png "Strategic Rationale As Is Model")
+![Strategic Rationale As Is Model](./Media/StrategicRationaleAsIsModel.jpeg "Strategic Rationale As Is Model")
