@@ -44,8 +44,8 @@
           "id": "ca665205-e238-4442-b970-8c44c7a811a1",
           "text": "Pegar Equipamentos",
           "type": "istar.Task",
-          "x": 1057,
-          "y": 370,
+          "x": 1066,
+          "y": 358,
           "customProperties": {
             "Description": ""
           }
@@ -96,8 +96,8 @@
           "id": "bb40e761-eb32-47a4-b0c5-f50bed213181",
           "text": "Fornecer laboratórios",
           "type": "istar.Goal",
-          "x": 1035,
-          "y": 958,
+          "x": 1129,
+          "y": 959,
           "customProperties": {
             "Description": ""
           }
@@ -106,8 +106,8 @@
           "id": "15e208c1-bf26-4aa4-b567-9786194223e6",
           "text": "Fornecer equipamentos",
           "type": "istar.Goal",
-          "x": 1150,
-          "y": 935,
+          "x": 1021,
+          "y": 954,
           "customProperties": {
             "Description": ""
           }
@@ -136,8 +136,8 @@
           "id": "0777fd4b-855f-424e-9149-21619bc25499",
           "text": "Designar monitores",
           "type": "istar.Task",
-          "x": 902,
-          "y": 994,
+          "x": 1219,
+          "y": 929,
           "customProperties": {
             "Description": ""
           }
@@ -146,8 +146,8 @@
           "id": "d9583461-0b2f-4a60-9990-d07c93207646",
           "text": "Segurança",
           "type": "istar.Quality",
-          "x": 1098,
-          "y": 1046,
+          "x": 1091,
+          "y": 1052,
           "customProperties": {
             "Description": ""
           }
@@ -270,7 +270,7 @@
       "id": "de1a0e6c-0484-49d0-9d6e-6d61d16a1ed4",
       "text": "Monitor",
       "type": "istar.Role",
-      "x": 57,
+      "x": 78,
       "y": 1001,
       "customProperties": {
         "Description": ""
@@ -290,8 +290,8 @@
           "id": "2788961e-5d99-447c-a145-d1d420c70660",
           "text": "Checar notificações",
           "type": "istar.Task",
-          "x": 158,
-          "y": 1110,
+          "x": 166,
+          "y": 1107,
           "customProperties": {
             "Description": ""
           }
@@ -310,8 +310,8 @@
           "id": "535542d5-2a0d-40d0-8382-ebfc6b3b9b8f",
           "text": "Verificar furtos dos equipamentos",
           "type": "istar.Task",
-          "x": 57,
-          "y": 1192,
+          "x": 78,
+          "y": 1173,
           "customProperties": {
             "Description": ""
           }
@@ -912,23 +912,39 @@
     "dc5c50c7-36b6-4d9a-8585-ebf919b8922d": {
       "vertices": [
         {
-          "x": 1040,
-          "y": 1090
+          "x": 1237,
+          "y": 1110
         }
       ]
     },
     "34cfd193-d04c-4956-94a4-acfa2d0fc7ac": {
       "vertices": [
         {
-          "x": 1265,
-          "y": 1083
+          "x": 1046,
+          "y": 1114
+        }
+      ]
+    },
+    "0ec2012c-cc2d-4e28-bf30-ec98ed970642": {
+      "vertices": [
+        {
+          "x": 1176,
+          "y": 1004
+        }
+      ]
+    },
+    "64208076-4c6e-4aad-be25-10989608e7bd": {
+      "vertices": [
+        {
+          "x": 1253,
+          "y": 1114
         }
       ]
     }
   },
   "tool": "pistar.2.0.0",
   "istar": "2.0",
-  "saveDate": "Mon, 21 Sep 2020 19:55:32 GMT",
+  "saveDate": "Mon, 21 Sep 2020 20:06:11 GMT",
   "diagram": {
     "width": 2052,
     "height": 1737,
