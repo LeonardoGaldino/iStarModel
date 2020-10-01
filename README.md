@@ -26,4 +26,4 @@ This is repository contains i* models for Requirements engineering discipline at
 ![Strategic Rationale To Be Model](./Media/StrategicRationaleToBeModel.png "Strategic Rationale To Be Model")
 
 # BPMN AS-IS model
-![BPMN As Is Model](./Media/BPMNAsIs.png.png "BPMN As Is Model")
+![BPMN As Is Model](./Media/BPMNAsIs.png "BPMN As Is Model")
