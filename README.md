@@ -27,3 +27,6 @@ This is repository contains i* models for Requirements engineering discipline at
 
 # BPMN AS-IS model
 ![BPMN As Is Model](./Media/BPMNAsIs.png "BPMN As Is Model")
+
+# BPMN TO-BE model
+![BPMN To Be Model](./Media/BPMNToBe.png "BPMN To Be Model")
