@@ -32,4 +32,4 @@ This is repository contains i* models for Requirements engineering discipline at
 ![BPMN To Be Model](./Media/BPMNToBe.png "BPMN To Be Model")
 
 # Non Functional Requirements model
-![Non Functional Requrements Model](./Media/requisitos_nao_funcionais_diagrama.jpeg "Non functional requirements model")
+![Non Functional Requrements Model](./Media/requisitos_nao_funcionais_diagrama.png "Non functional requirements model")
