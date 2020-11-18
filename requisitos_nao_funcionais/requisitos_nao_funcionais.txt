@@ -3,162 +3,239 @@
   "orphans": [
     {
       "id": "b79575b1-2b32-466b-bd0f-2f2f41cbcf41",
-      "text": "Disponibilidade - RNF 2.1",
+      "text": "Disponibilidade - RNF 3",
       "type": "nfr.NFR",
-      "x": 515,
-      "y": 358,
+      "x": 550,
+      "y": 700,
       "customProperties": {
         "Description": ""
       }
     },
     {
       "id": "c578c382-617b-4f83-9454-5f0019d759c1",
-      "text": "Autorização de acesso - RNF 4.1",
+      "text": "Autorização de acesso - RNF 10",
       "type": "nfr.NFR",
       "x": 919,
-      "y": 366,
+      "y": 668,
       "customProperties": {
         "Description": ""
       }
     },
     {
       "id": "ba10f8ed-95c2-4b35-b7da-9d31c4750a0e",
-      "text": "Segurança [Equipamentos] - RNF 4",
+      "text": "Segurança - RNF 9",
       "type": "nfr.NFR",
-      "x": 1099,
-      "y": 259,
+      "x": 994,
+      "y": 287,
       "customProperties": {
         "Description": ""
       }
     },
     {
       "id": "457b4872-538b-458d-8bd2-71564f69f1ee",
-      "text": "Login com usuário e senha - RNF 4.3",
+      "text": "Login com usuário e senha - RNF 16",
       "type": "nfr.Operationalization",
       "x": 765,
-      "y": 773,
+      "y": 1075,
       "customProperties": {
         "Description": ""
       }
     },
     {
       "id": "81e950ce-d696-45c2-8c70-603eae2244a0",
-      "text": "Ter sensores de qualidade - RNF 3.2",
+      "text": "Ter sensores de qualidade - RNF 8",
       "type": "nfr.Operationalization",
-      "x": 590,
-      "y": 689
+      "x": 589,
+      "y": 958
     },
     {
       "id": "ffe44de9-d6cc-4cee-8b53-6c73c6fa0322",
-      "text": "Usabilidade - RNF 5",
+      "text": "Usabilidade - RNF 18",
       "type": "nfr.NFR",
-      "x": 1342,
-      "y": 252
+      "x": 1193,
+      "y": 331
     },
     {
       "id": "eccf676b-6e2b-4c4c-8446-074c605f6e74",
-      "text": "Avisos de como abrir a baia próximo as baias - RNF 5.2",
+      "text": "Avisos de como abrir a baia próximo as baias - RNF 22",
       "type": "nfr.Operationalization",
-      "x": 1619,
-      "y": 588
+      "x": 1566,
+      "y": 960
     },
     {
       "id": "34aa19d3-622d-4db0-84e1-69aa05f8a720",
-      "text": "Acurácia - RNF 3",
+      "text": "Acurácia - RNF 4",
       "type": "nfr.NFR",
-      "x": 796,
-      "y": 253
+      "x": 767,
+      "y": 561
     },
     {
       "id": "1cd9124c-d60d-48eb-8078-a17f2477d293",
-      "text": "Integridade - RNF 4.7",
+      "text": "Integridade - RNF 12",
       "type": "nfr.NFR",
-      "x": 1269,
-      "y": 417
+      "x": 1166,
+      "y": 593
     },
     {
       "id": "33a4da4b-37b2-473e-8911-67fceadcd35e",
-      "text": "Detectar com precisão quais equipamentos estão ou não guardados - RNF 3.1",
+      "text": "Detectar com precisão quais equipamentos estão ou não guardados - RNF 7",
       "type": "nfr.NFR",
-      "x": 671,
-      "y": 515
+      "x": 688,
+      "y": 809
     },
     {
       "id": "390f5113-4fbc-4e77-aabb-079a25370211",
-      "text": "Fazer backup dos dados diariamente - RNF 4.8",
+      "text": "Fazer backup dos dados diariamente - RNF 13",
       "type": "nfr.Operationalization",
-      "x": 1302,
-      "y": 660
+      "x": 1215,
+      "y": 722
     },
     {
       "id": "2622ca99-1116-48c9-8b14-df92e31a827c",
-      "text": "Registrar qualquer uso - RNF 4.6",
+      "text": "Registro de eventos - RNF 11",
       "type": "nfr.Operationalization",
-      "x": 1076,
-      "y": 502
+      "x": 1026,
+      "y": 726
     },
     {
       "id": "f31ec98a-9cd0-44c1-aa75-5992655cafdc",
-      "text": "Disponível 24 horas - RNF 2.2",
+      "text": "Disponível 24 horas - RNF 6",
       "type": "nfr.NFR",
-      "x": 496,
-      "y": 605
+      "x": 439,
+      "y": 856
     },
     {
       "id": "178ef528-5fd5-4f5d-a303-a16484feaf3c",
-      "text": "Interface Simples - RNF 5.1",
+      "text": "Interface Simples - RNF 19",
       "type": "nfr.NFR",
-      "x": 1494,
-      "y": 454
+      "x": 1451,
+      "y": 832
     },
     {
       "id": "044a109e-4cbf-4339-b596-2bc8657188ad",
-      "text": "Autenticação - RNF 4.2",
+      "text": "Autenticação - RNF 14",
       "type": "nfr.NFR",
       "x": 842,
-      "y": 631
+      "y": 933
     },
     {
       "id": "b718f011-180d-4b91-99ae-9be5715e6e75",
-      "text": "Identificação - RNF 4.4",
+      "text": "Identificação - RNF 15",
       "type": "nfr.NFR",
       "x": 983,
-      "y": 611
+      "y": 913
     },
     {
       "id": "e5fd4285-3876-4817-81e2-c1f7cce93801",
-      "text": "RFID - RNF 4.5",
+      "text": "RFID - RNF 17",
       "type": "nfr.Operationalization",
       "x": 1016,
-      "y": 745
+      "y": 1045
     },
     {
       "id": "abcf261b-3b3b-4e22-b87a-939c198878ce",
-      "text": "Robustez - RNF 1",
+      "text": "Robustez - RNF 2",
       "type": "nfr.NFR",
-      "x": 341,
-      "y": 220
+      "x": 403,
+      "y": 476
     },
     {
       "id": "c935cc0d-fa59-435e-996d-39e2c381b9f9",
-      "text": "Abrir baia manualmente - RNF 1.1",
+      "text": "Abrir baia manualmente - RNF 5",
       "type": "nfr.Operationalization",
-      "x": 291,
-      "y": 582
+      "x": 265,
+      "y": 738
     },
     {
       "id": "937fa0e3-2f0a-4f50-83d5-e69ca986669b",
-      "text": "Performance - RNF 2",
+      "text": "Performance - RNF 1",
       "type": "nfr.NFR",
-      "x": 652,
-      "y": 239
+      "x": 635,
+      "y": 324
     },
     {
       "id": "6c9e9c93-df95-4cfa-a2e5-308eeed77d02",
       "text": "Sistema de gerenciamento de baias",
       "type": "nfr.NFR",
-      "x": 847,
-      "y": 38
+      "x": 1110,
+      "y": 40
+    },
+    {
+      "id": "5ad019a2-7090-4371-83b9-fa1a653ae873",
+      "text": "Manutenabilidade - RNF 23",
+      "type": "nfr.NFR",
+      "x": 1430,
+      "y": 328
+    },
+    {
+      "id": "e2282c54-e0f6-4e27-b756-f1668ff9fcec",
+      "text": "Sensores fáceis de serem trocados - RNF 25",
+      "type": "nfr.NFR",
+      "x": 1619,
+      "y": 451
+    },
+    {
+      "id": "ad7aafe7-da2d-4011-a87f-57bf84a23024",
+      "text": "Boa documentação do protótipo - RNF 24",
+      "type": "nfr.NFR",
+      "x": 1491,
+      "y": 473
+    },
+    {
+      "id": "ad45c5d1-5e97-4760-b0d2-1e46512b7a71",
+      "text": "Acordância com twelve-factor app - RNF 26",
+      "type": "nfr.NFR",
+      "x": 1780,
+      "y": 424
+    },
+    {
+      "id": "1f0effb6-b793-4143-82f3-ff7000caacce",
+      "text": "Proteção contra erros do usuário - RNF 20",
+      "type": "nfr.NFR",
+      "x": 1567,
+      "y": 802
+    },
+    {
+      "id": "048095f5-fb9d-44fe-a229-a02d1576792a",
+      "text": "Estrutura Física - RNF 27",
+      "type": "nfr.NFR",
+      "x": 1694,
+      "y": 149
+    },
+    {
+      "id": "538f9c0f-14ca-494c-b1bb-028643a5f819",
+      "text": "Dimensões - RNF 28",
+      "type": "nfr.NFR",
+      "x": 1709,
+      "y": 240
+    },
+    {
+      "id": "299b2888-2901-4d1f-998f-37320f152c39",
+      "text": "Formato - RNF 29",
+      "type": "nfr.NFR",
+      "x": 1844,
+      "y": 295
+    },
+    {
+      "id": "92e9be56-f2b5-4391-a1c4-d35690096942",
+      "text": "Intuitividade - RNF21",
+      "type": "nfr.NFR",
+      "x": 1689,
+      "y": 787
+    },
+    {
+      "id": "094eb6aa-4bc1-4291-b5a8-07753880fef7",
+      "text": "Durabilidade - RNF30",
+      "type": "nfr.NFR",
+      "x": 1992,
+      "y": 252
+    },
+    {
+      "id": "9fbe0ef2-99e2-4684-b95d-53327f03d75c",
+      "text": "Abrir baia manualmente não afeta tão negativamente a segurança",
+      "type": "nfr.Claim",
+      "x": 119,
+      "y": 585
     }
   ],
   "dependencies": [],
@@ -168,13 +245,6 @@
       "type": "nfr.AndRefinementLink",
       "source": "1cd9124c-d60d-48eb-8078-a17f2477d293",
       "target": "ba10f8ed-95c2-4b35-b7da-9d31c4750a0e"
-    },
-    {
-      "id": "1535650c-5733-43c0-8d0e-7be17e5811d9",
-      "type": "nfr.ContributionLink",
-      "source": "33a4da4b-37b2-473e-8911-67fceadcd35e",
-      "target": "b79575b1-2b32-466b-bd0f-2f2f41cbcf41",
-      "label": "+"
     },
     {
       "id": "b27a0a56-e0f1-4250-84ab-3a789f9d2bfe",
@@ -291,13 +361,6 @@
       "target": "abcf261b-3b3b-4e22-b87a-939c198878ce"
     },
     {
-      "id": "c8095205-1b57-48b9-9369-cbd9de608346",
-      "type": "nfr.CorrelationLink",
-      "source": "c935cc0d-fa59-435e-996d-39e2c381b9f9",
-      "target": "ba10f8ed-95c2-4b35-b7da-9d31c4750a0e",
-      "label": "–"
-    },
-    {
       "id": "7872f0b7-5df7-4ccd-8ea2-461e5138873a",
       "type": "nfr.AndRefinementLink",
       "source": "b79575b1-2b32-466b-bd0f-2f2f41cbcf41",
@@ -307,12 +370,6 @@
       "id": "15d76091-41f2-49e9-9c83-e378f06cc9e4",
       "type": "nfr.AndRefinementLink",
       "source": "937fa0e3-2f0a-4f50-83d5-e69ca986669b",
-      "target": "6c9e9c93-df95-4cfa-a2e5-308eeed77d02"
-    },
-    {
-      "id": "51a3e1a9-e23b-4c86-90cb-a009ae1dbc7b",
-      "type": "nfr.AndRefinementLink",
-      "source": "34aa19d3-622d-4db0-84e1-69aa05f8a720",
       "target": "6c9e9c93-df95-4cfa-a2e5-308eeed77d02"
     },
     {
@@ -328,10 +385,96 @@
       "target": "6c9e9c93-df95-4cfa-a2e5-308eeed77d02"
     },
     {
-      "id": "f315faaa-511d-4a05-aab5-2916c9371179",
+      "id": "04002f29-9678-4795-8632-a8f62f4cc684",
+      "type": "nfr.AndRefinementLink",
+      "source": "ad7aafe7-da2d-4011-a87f-57bf84a23024",
+      "target": "5ad019a2-7090-4371-83b9-fa1a653ae873"
+    },
+    {
+      "id": "71dabe6f-54a8-46d0-aa9e-a28fe4d1075c",
+      "type": "nfr.AndRefinementLink",
+      "source": "e2282c54-e0f6-4e27-b756-f1668ff9fcec",
+      "target": "5ad019a2-7090-4371-83b9-fa1a653ae873"
+    },
+    {
+      "id": "d8a15899-d0e8-4bd0-bf91-ffc87a820112",
+      "type": "nfr.AndRefinementLink",
+      "source": "5ad019a2-7090-4371-83b9-fa1a653ae873",
+      "target": "6c9e9c93-df95-4cfa-a2e5-308eeed77d02"
+    },
+    {
+      "id": "f20971c6-f95b-4e09-97fb-42bc4ab1b4ac",
       "type": "nfr.AndRefinementLink",
       "source": "abcf261b-3b3b-4e22-b87a-939c198878ce",
+      "target": "937fa0e3-2f0a-4f50-83d5-e69ca986669b"
+    },
+    {
+      "id": "57219a2b-772d-4425-9aae-b99266f7dd17",
+      "type": "nfr.AndRefinementLink",
+      "source": "34aa19d3-622d-4db0-84e1-69aa05f8a720",
+      "target": "937fa0e3-2f0a-4f50-83d5-e69ca986669b"
+    },
+    {
+      "id": "7b06ddd8-64e4-497b-b03d-231f98bf9199",
+      "type": "nfr.AndRefinementLink",
+      "source": "ad45c5d1-5e97-4760-b0d2-1e46512b7a71",
+      "target": "5ad019a2-7090-4371-83b9-fa1a653ae873"
+    },
+    {
+      "id": "9a6c469e-f9c0-4a95-a2f4-eebc00c2d9d9",
+      "type": "nfr.AndRefinementLink",
+      "source": "1f0effb6-b793-4143-82f3-ff7000caacce",
+      "target": "ffe44de9-d6cc-4cee-8b53-6c73c6fa0322"
+    },
+    {
+      "id": "aae60f44-272f-4f84-ac06-f29fb29193af",
+      "type": "nfr.AndRefinementLink",
+      "source": "92e9be56-f2b5-4391-a1c4-d35690096942",
+      "target": "ffe44de9-d6cc-4cee-8b53-6c73c6fa0322"
+    },
+    {
+      "id": "b45e76a3-06fd-4ba4-91cb-a42f758fab6b",
+      "type": "nfr.AndRefinementLink",
+      "source": "538f9c0f-14ca-494c-b1bb-028643a5f819",
+      "target": "048095f5-fb9d-44fe-a229-a02d1576792a"
+    },
+    {
+      "id": "6767a15f-dd22-4c1f-9701-3e89f13afc5a",
+      "type": "nfr.AndRefinementLink",
+      "source": "299b2888-2901-4d1f-998f-37320f152c39",
+      "target": "048095f5-fb9d-44fe-a229-a02d1576792a"
+    },
+    {
+      "id": "2ab961d3-f0ea-413f-8515-210fa9a133cd",
+      "type": "nfr.AndRefinementLink",
+      "source": "094eb6aa-4bc1-4291-b5a8-07753880fef7",
+      "target": "048095f5-fb9d-44fe-a229-a02d1576792a"
+    },
+    {
+      "id": "52958a16-c4d4-4b8d-bcc8-662d965207ad",
+      "type": "nfr.ContributionLink",
+      "source": "81e950ce-d696-45c2-8c70-603eae2244a0",
+      "target": "f31ec98a-9cd0-44c1-aa75-5992655cafdc",
+      "label": "+"
+    },
+    {
+      "id": "48bab3c1-b48f-428e-9a8e-be29809bcd2d",
+      "type": "nfr.AndRefinementLink",
+      "source": "048095f5-fb9d-44fe-a229-a02d1576792a",
       "target": "6c9e9c93-df95-4cfa-a2e5-308eeed77d02"
+    },
+    {
+      "id": "b00751f9-4785-4c01-99cc-f60712523629",
+      "type": "nfr.CorrelationLink",
+      "source": "c935cc0d-fa59-435e-996d-39e2c381b9f9",
+      "target": "ba10f8ed-95c2-4b35-b7da-9d31c4750a0e",
+      "label": "–"
+    },
+    {
+      "id": "671bd7a0-a0fb-4193-aeff-7281e15117ee",
+      "type": "nfr.ArgumentLink",
+      "source": "9fbe0ef2-99e2-4684-b95d-53327f03d75c",
+      "target": "b00751f9-4785-4c01-99cc-f60712523629"
     }
   ],
   "display": {
@@ -380,8 +523,8 @@
       "height": 77.98114013671875
     },
     "2622ca99-1116-48c9-8b14-df92e31a827c": {
-      "width": 128.596435546875,
-      "height": 96.97659301757812
+      "width": 135.29885864257812,
+      "height": 69.92086791992188
     },
     "f31ec98a-9cd0-44c1-aa75-5992655cafdc": {
       "width": 110.59805297851562,
@@ -411,23 +554,43 @@
       "width": 246.58448791503906,
       "height": 133.96789169311523
     },
-    "1535650c-5733-43c0-8d0e-7be17e5811d9": {
-      "vertices": [
-        {
-          "x": 651,
-          "y": 487
-        }
-      ]
+    "5ad019a2-7090-4371-83b9-fa1a653ae873": {
+      "width": 136.18746948242188,
+      "height": 56.8890380859375
+    },
+    "e2282c54-e0f6-4e27-b756-f1668ff9fcec": {
+      "width": 132.52157592773438,
+      "height": 74.38479614257812
+    },
+    "ad7aafe7-da2d-4011-a87f-57bf84a23024": {
+      "width": 113.52328491210938,
+      "height": 78.38409423828125
+    },
+    "ad45c5d1-5e97-4760-b0d2-1e46512b7a71": {
+      "width": 131.29934692382812,
+      "height": 83.99360656738281
+    },
+    "1f0effb6-b793-4143-82f3-ff7000caacce": {
+      "width": 104.85769653320312,
+      "height": 61.4990234375
+    },
+    "92e9be56-f2b5-4391-a1c4-d35690096942": {
+      "width": 106.85733032226562,
+      "height": 62.498779296875
+    },
+    "9fbe0ef2-99e2-4684-b95d-53327f03d75c": {
+      "width": 208.4552001953125,
+      "height": 102.5455322265625
     },
     "1cd4285f-36e6-4dd8-a97d-e2cd823a224f": {
       "vertices": [
         {
           "x": 1162,
-          "y": 895
+          "y": 1197
         },
         {
           "x": 1453,
-          "y": 713
+          "y": 1015
         }
       ]
     },
@@ -435,29 +598,17 @@
       "vertices": [
         {
           "x": 779,
-          "y": 390.8
-        }
-      ]
-    },
-    "c8095205-1b57-48b9-9369-cbd9de608346": {
-      "vertices": [
-        {
-          "x": 648,
-          "y": 818
-        },
-        {
-          "x": 1259,
-          "y": 993
+          "y": 692.8
         }
       ]
     }
   },
   "tool": "dsm3-goals",
   "metamodelVersion": "1.0",
-  "saveDate": "Fri, 13 Nov 2020 18:51:39 GMT",
+  "saveDate": "Wed, 18 Nov 2020 01:17:44 GMT",
   "diagram": {
     "width": 2500,
-    "height": 1668,
+    "height": 1970,
     "name": "Example NFR model",
     "customProperties": {
       "Description": "This tool supports two things that are often troublesome to develop with generic modelling frameworks:\n - draw complex shapes (clouds) without distorting when they are resized\n - create links from an element to a link (claim links)"
