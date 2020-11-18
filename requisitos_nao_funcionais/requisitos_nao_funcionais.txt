@@ -451,13 +451,6 @@
       "target": "048095f5-fb9d-44fe-a229-a02d1576792a"
     },
     {
-      "id": "52958a16-c4d4-4b8d-bcc8-662d965207ad",
-      "type": "nfr.ContributionLink",
-      "source": "81e950ce-d696-45c2-8c70-603eae2244a0",
-      "target": "f31ec98a-9cd0-44c1-aa75-5992655cafdc",
-      "label": "+"
-    },
-    {
       "id": "48bab3c1-b48f-428e-9a8e-be29809bcd2d",
       "type": "nfr.AndRefinementLink",
       "source": "048095f5-fb9d-44fe-a229-a02d1576792a",
@@ -475,6 +468,13 @@
       "type": "nfr.ArgumentLink",
       "source": "9fbe0ef2-99e2-4684-b95d-53327f03d75c",
       "target": "b00751f9-4785-4c01-99cc-f60712523629"
+    },
+    {
+      "id": "e0c45075-a333-499e-8217-89820b46895e",
+      "type": "nfr.CorrelationLink",
+      "source": "81e950ce-d696-45c2-8c70-603eae2244a0",
+      "target": "f31ec98a-9cd0-44c1-aa75-5992655cafdc",
+      "label": "+"
     }
   ],
   "display": {
@@ -605,7 +605,7 @@
   },
   "tool": "dsm3-goals",
   "metamodelVersion": "1.0",
-  "saveDate": "Wed, 18 Nov 2020 01:17:44 GMT",
+  "saveDate": "Wed, 18 Nov 2020 01:35:00 GMT",
   "diagram": {
     "width": 2500,
     "height": 1970,
